@@ -2,7 +2,7 @@
 base = "dark"
 primaryColor="#bcd40a"
 # Background color for the main content area.
-backgroundColor = "#222222"
+backgroundColor = "#141414"
 secondaryBackgroundColor = "3C4048"
 textColor="#FFFFFF"
 font="sans serif"
