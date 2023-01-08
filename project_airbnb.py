@@ -307,7 +307,7 @@ with f:
     st.plotly_chart(fig)
     text_f = st.text_area(label="     ", value="The chart above shows month and year with the least rental activity ")
     with st.expander(label="Show Table Least Rental Activity Airbnb Singapore"):
-        agree = st.checkbox('Tips     ')
+        agree = st.checkbox('Tips               ')
         if agree:
             st.info('Click on column name to sort value ascending or descending', icon="ℹ️")
         st.dataframe(ordermap_region_sort_asc)
