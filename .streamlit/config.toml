@@ -1,8 +1,8 @@
 [theme]
 base = "dark"
-primaryColor="#AD8E70"
+primaryColor="#bcd40a"
 # Background color for the main content area.
 backgroundColor = "#222222"
-secondaryBackgroundColor = "#bcd40a"
+secondaryBackgroundColor = "3C4048"
 textColor="#FFFFFF"
 font="sans serif"
