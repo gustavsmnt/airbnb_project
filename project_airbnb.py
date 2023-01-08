@@ -16,9 +16,9 @@ FONT = {'family': 'serif',
         }
 
 #DATASET
-df_listing = pd.read_csv("C:\\Users\\Gustav\\Desktop\\Final Project\\listing_byCountry.csv")
-df_region = pd.read_csv("C:\\Users\\Gustav\\Desktop\\Final Project\\DQLab_nieghbourhood(22Sep2022).csv")
-df_review = pd.read_csv("C:\\Users\\Gustav\\Desktop\\Final Project\\DQLab_reviews(22Sep2022).csv")
+df_listing = pd.read_csv("listing_byCountry.csv")
+df_region = pd.read_csv("DQLab_nieghbourhood(22Sep2022).csv")
+df_review = pd.read_csv("DQLab_reviews(22Sep2022).csv")
 
 #SETTING WEB PAGE
 st.set_page_config(
