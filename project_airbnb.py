@@ -292,7 +292,7 @@ with f:
     ordermap_region_sort_asc = ordermap_region_sort.groupby(['month_year'])['date'].size().to_frame('review').reset_index()
     ordermap_region_sort_asc = ordermap_region_sort_asc.sort_values('review')
     ordermap_region_sort_asc = ordermap_region_sort_asc.head(20)
-    fig = px.bar(ordermap_region_sort_desc, y="review", x="month_year"
+    fig = px.bar(ordermap_region_sort_asc, y="review", x="month_year"
             , barmode='group'
             ,hover_name='month_year',hover_data=['review','month_year'])
     fig.update_layout(
